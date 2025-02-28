@@ -13,3 +13,20 @@ a{
     color: inherit;
 
 }
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    background-color: black;
+}
+
+main{
+    display: grid;
+    place-content: center;
+}
+
+h1{
+    color: red;
+    font-size: 4rem;
+}
